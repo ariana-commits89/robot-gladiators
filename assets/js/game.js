@@ -14,7 +14,7 @@ var fight = function() {
     window.alert("Welcome to Robot Gladiators!");
 var promptFight = window.prompt("Would you like to FIGHT or SKIP this battle? Enter 'FIGHT' or 'SKIP' to choose.");
 console.log(promptFight);
-}
+
 // if player choses to fight, then fight
 if (promptFight === "fight" || promptFight === "FIGHT") {
     // remove enemy's health by subtracting the amount set in the playerAttack variable
@@ -48,3 +48,5 @@ if (promptFight === "fight" || promptFight === "FIGHT") {
   } else {
     window.alert("You need to choose a valid option. Try again!");
   }
+}
+fight()
